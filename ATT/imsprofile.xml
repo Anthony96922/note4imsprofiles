@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  pcscf_pref
+      0 : PCO
+      1 : ISIM
+      2 : manual
+      3 : auto config
+      4 : if only RCS, from auto config. otherwise, PCO
+ -->
+<profiles>
+
+    <profile
+        name="AT&amp;T VoLTE/IR94/UCE"
+        mccmnc="311180,310410,310150,310170,310380,310680,310560,310070,310090,00101:XAA,45001:XAA,45005:XAA,25851:XAA,nosim:XAA"
+        allow_other_sim="1"
+        sales_code="XAA"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:32000,C:180000,D:32000,E:2000,F:32000,G:2000,H:32000,I:17000,J:32000,K:17000"
+        transport="udp"
+        priority="1"
+        support_ipsec="true"
+        globalsettings="ATT-US">
+        <network type="lte" services="mmtel,mmtel-video,smsip,presence,xdm"/>
+        <network type="umts" services="mmtel,smsip,presence,xdm"/>
+        <network type="edge" services="mmtel,smsip,presence,xdm"/>
+        <network type="gsm" services="mmtel,smsip,presence,xdm"/>
+        <network type="hspa" services="mmtel,smsip,presence,xdm"/>
+        <network type="hspa+" services="mmtel,smsip,presence,xdm"/>
+        <network type="hsdpa" services="mmtel,smsip,presence,xdm"/>
+        <network type="hsupa" services="mmtel,smsip,presence,xdm"/>
+    </profile>
+
+    <profile
+        name="AT&amp;T VoLTE Internet PDN"
+        mccmnc="311180,310410,310150,310170,310380,310680,310560,310070,310090,00101:XAA,45001:XAA,45005:XAA,25851:XAA,nosim:XAA"
+        allow_other_sim="1"
+        sales_code="XAA"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="internet"
+        timer="1:2000,2:16000,4:17000,A:2000,B:32000,C:180000,D:32000,E:2000,F:32000,G:2000,H:32000,I:17000,J:32000,K:17000"
+        transport="udp"
+        priority="1"
+        support_ipsec="false"
+        globalsettings="ATT-US">
+        <network type="lte" services="ss"/>
+        <network type="umts" services="ss"/>
+        <network type="edge" services="ss"/>
+        <network type="gsm" services="ss"/>
+        <network type="hspa" services="ss"/>
+        <network type="hspa+" services="ss"/>
+        <network type="hsdpa" services="ss"/>
+        <network type="hsupa" services="ss"/>
+    </profile>
+
+    <profile
+        name="AT&amp;T E911"
+        mccmnc="311180,310410,310150,310170,310380,310680,310560,310070,310090,00101:XAA,45001:XAA,45005:XAA,25851:XAA,nosim:XAA"
+        allow_other_sim="1"
+        sales_code="XAA"
+        pdn="emergency"
+        ipver="ipv6"
+        pcscf_pref="0"
+        port="5060"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        transport="udp"
+        support_ipsec="true"
+        timer="1:2000,2:16000,4:17000,A:2000,B:32000,C:180000,D:32000,E:2000,F:32000,G:2000,H:32000,I:17000,J:32000,K:17000"
+        emergency_support="true"
+        globalsettings="ATT-US">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <profile
+        enabled="off"
+        name="Testbed VoLTE/RCS"
+        mccmnc="testbed"
+        sales_code="test"
+        auth_algo="hmac-md5-96"
+        authname=""
+        enc_algo="none"
+        impi=""
+        impu=""
+        ipver="ipv4"
+        pcscf_pref="0"
+        pdn="ims"
+        port="5060"
+        priority="0"
+        regi_algo="AKAv1-MD5"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        support_roaming="false"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp"
+        support_ipsec="true"
+        globalsettings="default">
+        <network type="lte" services="smsip"/>
+    </profile>
+
+    <profile
+        enabled="off"
+        name="Testbed WiFi RCS"
+        mccmnc="testbed"
+        sales_code="test"
+        impi=""
+        impu=""
+        pdn="wifi"
+        priority="1"
+        globalsettings="default">
+        <network type="wifi" services="im,ft,is,vs,options,euc"/>
+    </profile>
+
+    <profile
+        enabled="off"
+        name="Testbed E911"
+        mccmnc="testbed"
+        sales_code="test"
+        auth_algo="hmac-md5-96"
+        authname=""
+        enc_algo="none"
+        ipver="ipv4"
+        pcscf_pref="0"
+        pdn="emergency"
+        port="5060"
+        priority="0"
+        regi_algo="AKAv1-MD5"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        support_roaming="false"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp"
+        emergency_support="true"
+        support_ipsec="true"
+        globalsettings="default">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+</profiles>

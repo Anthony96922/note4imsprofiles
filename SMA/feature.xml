@@ -1,0 +1,206 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SamsungMobileFeature>
+<Version>ED0001</Version>
+<Country>US</Country>
+<CountryISO>USA</CountryISO>
+<SalesCode>XAA</SalesCode>
+<FeatureSet>
+
+<!-- Camera -->
+<CscFeature_Camera_CameraFlicker>60hz</CscFeature_Camera_CameraFlicker>
+<CscFeature_Camera_EnableCameraDuringCall>TRUE</CscFeature_Camera_EnableCameraDuringCall>
+<CscFeature_Camera_EnableSmsNotiPopup>TRUE</CscFeature_Camera_EnableSmsNotiPopup>
+<CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
+
+<!-- Clock -->
+<CscFeature_Clock_EnableMenuAlarmAlertDuringSilentMode>TRUE</CscFeature_Clock_EnableMenuAlarmAlertDuringSilentMode>
+
+<!-- Common -->
+<CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
+<CscFeature_Common_ConfigVvm>CanUseNative</CscFeature_Common_ConfigVvm>
+<CscFeature_Common_DisablePhoneNumberFormatting>TRUE</CscFeature_Common_DisablePhoneNumberFormatting>
+<CscFeature_Common_EnableAirMessage>TRUE</CscFeature_Common_EnableAirMessage>
+<CscFeature_Common_SupportMinimizedSip>TRUE</CscFeature_Common_SupportMinimizedSip>
+
+<!-- Contact -->
+<CscFeature_Contact_ANRConfig>1</CscFeature_Contact_ANRConfig>
+<CscFeature_Contact_DisableSipAddress>TRUE</CscFeature_Contact_DisableSipAddress>
+<CscFeature_Contact_EnableCnam>TRUE</CscFeature_Contact_EnableCnam>
+<CscFeature_Contact_EnableEcid>TRUE</CscFeature_Contact_EnableEcid>
+<CscFeature_Contact_EnableMenuDeleteHistory>TRUE</CscFeature_Contact_EnableMenuDeleteHistory>
+<CscFeature_Contact_EnableMenuGroupVideoCall>TRUE</CscFeature_Contact_EnableMenuGroupVideoCall>
+<CscFeature_Contact_EnableMenuStorageStatus>TRUE</CscFeature_Contact_EnableMenuStorageStatus>
+<CscFeature_Contact_EnableVVM>TRUE</CscFeature_Contact_EnableVVM>
+<CscFeature_Contact_ExtendSpeedDialTo100>TRUE</CscFeature_Contact_ExtendSpeedDialTo100>
+<CscFeature_Contact_ShowGroupChatInfo>TRUE</CscFeature_Contact_ShowGroupChatInfo>
+<CscFeature_Contact_SupportMotionCall>TRUE</CscFeature_Contact_SupportMotionCall>
+
+<!-- Framework -->
+<!--
+  ReplaceDataIconTypeAsOpBrand
+  Valid options:
+    USA, OYB, OYA, OYC, OLB, VD2, VID, MNX, DOR,
+    TMH, PCT, JDI, CDR, ANC, DGT, COL, CTU, BVO,
+    TTT, CGU, TFG, SFR, IUS, LTE, ORANGE
+-->
+<!--
+<CscFeature_Framework_ReplaceDataTypeIconAsOpBrand>LTE</CscFeature_Framework_ReplaceDataTypeIconAsOpBrand>
+-->
+
+<!-- GPS -->
+<CscFeature_GPS_SupportAgnss>TRUE</CscFeature_GPS_SupportAgnss>
+<CscFeature_GPS_SupportGoogleSupl2>TRUE</CscFeature_GPS_SupportGoogleSupl2>
+<CscFeature_GPS_SupportPrivacyLock>TRUE</CscFeature_GPS_SupportPrivacyLock>
+
+<!-- IMS -->
+<CscFeature_IMS_EnableIMS>TRUE</CscFeature_IMS_EnableIMS>
+<CscFeature_IMS_EnableLTEVideoCall>TRUE</CscFeature_IMS_EnableLTEVideoCall>
+<CscFeature_IMS_EnableRCSPresence>TRUE</CscFeature_IMS_EnableRCSPresence>
+<CscFeature_IMS_EnableRCSe>TRUE</CscFeature_IMS_EnableRCSe>
+<CscFeature_IMS_EnableVoLTE>TRUE</CscFeature_IMS_EnableVoLTE>
+<CscFeature_IMS_FrameworkVersion>5.1</CscFeature_IMS_FrameworkVersion>
+<CscFeature_IMS_SupportRCSeBasicProfile>TRUE</CscFeature_IMS_SupportRCSeBasicProfile>
+<CscFeature_IMS_SupportVolteDuringRoaming>TRUE</CscFeature_IMS_SupportVolteDuringRoaming>
+
+<!-- Message -->
+<CscFeature_Message_ConfigEmojiComposing>smsmms</CscFeature_Message_ConfigEmojiComposing>
+<CscFeature_Message_ConfigShowSizeInfo>TRUE</CscFeature_Message_ConfigShowSizeInfo>
+<CscFeature_Message_DisplayMmsTimeAs>server</CscFeature_Message_DisplayMmsTimeAs>
+<CscFeature_Message_DisplaySmsTimeAs>server</CscFeature_Message_DisplaySmsTimeAs>
+<CscFeature_Message_EnableCMAS4>gsm</CscFeature_Message_EnableCMAS4>
+<CscFeature_Message_EnableContactInfoInBubble>TRUE</CscFeature_Message_EnableContactInfoInBubble>
+<CscFeature_Message_EnableCpm>TRUE</CscFeature_Message_EnableCpm>
+<CscFeature_Message_EnableMenuInsertSenderInfoWhenFwdMsg>TRUE</CscFeature_Message_EnableMenuInsertSenderInfoWhenFwdMsg>
+<CscFeature_Message_EnableMenuSendMmsDeliveryReport>TRUE</CscFeature_Message_EnableMenuSendMmsDeliveryReport>
+<CscFeature_Message_EnableMmsErrorCodeInDetailView>TRUE</CscFeature_Message_EnableMmsErrorCodeInDetailView>
+<CscFeature_Message_EnableSaveRestoreSDCard>TRUE</CscFeature_Message_EnableSaveRestoreSDCard>
+<CscFeature_Message_EnableSaveVMessage>TRUE</CscFeature_Message_EnableSaveVMessage>
+<CscFeature_Message_EnableScheduledMessage>TRUE</CscFeature_Message_EnableScheduledMessage>
+<CscFeature_Message_EnableScheduledMsgBox>TRUE</CscFeature_Message_EnableScheduledMsgBox>
+<CscFeature_Message_MinSlideDuration>5</CscFeature_Message_MinSlideDuration>
+<CscFeature_Message_MMSMaxCharPerSlide>2000</CscFeature_Message_MMSMaxCharPerSlide>
+<CscFeature_Message_MmsModeCaptureVideoBitRate>0</CscFeature_Message_MmsModeCaptureVideoBitRate>
+<CscFeature_Message_MmsModeCaptureVideoMaxDuration>0</CscFeature_Message_MmsModeCaptureVideoMaxDuration>
+<CscFeature_Message_MmsModeCaptureVideoMaxSize>1018880</CscFeature_Message_MmsModeCaptureVideoMaxSize>
+<CscFeature_Message_PositionTextTemplateMenu>TRUE</CscFeature_Message_PositionTextTemplateMenu>
+
+<!-- NFC -->
+<CscFeature_NFC_DefStatus>OFF</CscFeature_NFC_DefStatus>
+
+<!-- RIL -->
+<CscFeature_RIL_CellbroadcastWithoutSim>TRUE</CscFeature_RIL_CellbroadcastWithoutSim>
+<CscFeature_RIL_ConfigApnForHideDataIcon>mms</CscFeature_RIL_ConfigApnForHideDataIcon>
+<CscFeature_RIL_ConfigGlobalModuleType>LTE</CscFeature_RIL_ConfigGlobalModuleType>
+<CscFeature_RIL_ConfigNetworkStatusIcon>DC</CscFeature_RIL_ConfigNetworkStatusIcon>
+<CscFeature_RIL_ConfigSpecialPdpFlag>im_cn</CscFeature_RIL_ConfigSpecialPdpFlag>
+<CscFeature_RIL_CpBaseFd>TRUE</CscFeature_RIL_CpBaseFd>
+<CscFeature_RIL_CurrentDataTechNotReset>TRUE</CscFeature_RIL_CurrentDataTechNotReset>
+<CscFeature_RIL_DataPrefDataTechSnapShot>TRUE</CscFeature_RIL_DataPrefDataTechSnapShot>
+<CscFeature_RIL_DisableLteDetachOnPdpReset>TRUE</CscFeature_RIL_DisableLteDetachOnPdpReset>
+<CscFeature_RIL_Display4gPlusIconBandwidth>14</CscFeature_RIL_Display4gPlusIconBandwidth>
+<CscFeature_RIL_EnableCallBarringConnectToUssd>TRUE</CscFeature_RIL_EnableCallBarringConnectToUssd>
+<CscFeature_RIL_EnableDSAC>TRUE</CscFeature_RIL_EnableDSAC>
+<CscFeature_RIL_EnableDTM>TRUE</CscFeature_RIL_EnableDTM>
+<CscFeature_RIL_EnableImsSsErrorMsg>TRUE</CscFeature_RIL_EnableImsSsErrorMsg>
+<CscFeature_RIL_ForceConnectMMS>TRUE</CscFeature_RIL_ForceConnectMMS>
+<CscFeature_RIL_PcscfUpdate>TRUE</CscFeature_RIL_PcscfUpdate>
+<CscFeature_RIL_RedialVoltecallDuringAlerting>TRUE</CscFeature_RIL_RedialVoltecallDuringAlerting>
+<CscFeature_RIL_ReplaceUssdFail>TRUE</CscFeature_RIL_ReplaceUssdFail>
+<CscFeature_RIL_RerouteSsToSip>TRUE</CscFeature_RIL_RerouteSsToSip>
+<CscFeature_RIL_SendEcn>TRUE</CscFeature_RIL_SendEcn>
+<CscFeature_RIL_SetVolteCalllistToQcCp>TRUE</CscFeature_RIL_SetVolteCalllistToQcCp>
+<CscFeature_RIL_SignalstrengthPolicy>1</CscFeature_RIL_SignalstrengthPolicy>
+<CscFeature_RIL_SrvccRel>10</CscFeature_RIL_SrvccRel>
+<CscFeature_RIL_SsRoutingPolicy>ims</CscFeature_RIL_SsRoutingPolicy>
+<CscFeature_RIL_SsUsingUt>TRUE</CscFeature_RIL_SsUsingUt>
+<CscFeature_RIL_SupportCNAP>TRUE</CscFeature_RIL_SupportCNAP>
+<CscFeature_RIL_SupportCnapDuringVolteCall>TRUE</CscFeature_RIL_SupportCnapDuringVolteCall>
+<CscFeature_RIL_SupportImsService>TRUE</CscFeature_RIL_SupportImsService>
+<CscFeature_RIL_SupportLteRoaming>TRUE</CscFeature_RIL_SupportLteRoaming>
+<CscFeature_RIL_SupportResetslbFunctionality>TRUE</CscFeature_RIL_SupportResetslbFunctionality>
+<CscFeature_RIL_SupportSrvcc>TRUE</CscFeature_RIL_SupportSrvcc>
+<CscFeature_RIL_SupportVolte>TRUE</CscFeature_RIL_SupportVolte>
+<CscFeature_RIL_SupportVolteE911>TRUE</CscFeature_RIL_SupportVolteE911>
+<CscFeature_RIL_SupportVolteUssd>TRUE</CscFeature_RIL_SupportVolteUssd>
+<CscFeature_RIL_SupportVolteVtCall>TRUE</CscFeature_RIL_SupportVolteVtCall>
+<CscFeature_RIL_UpdateCallstateDuringModifyCall>TRUE</CscFeature_RIL_UpdateCallstateDuringModifyCall>
+<CscFeature_RIL_UssdRoutingPolicy>ims</CscFeature_RIL_UssdRoutingPolicy>
+
+<!-- Setting -->
+<CscFeature_Setting_CustNetworkSelMenu4>LTEONLY</CscFeature_Setting_CustNetworkSelMenu4>
+<CscFeature_Setting_DefNotificationPanelOrder>Wifi;Location;SilentMode;AutoRotate;Bluetooth;VoLte;NetworkBooster;UltraPowerSaving;MobileData;DormantMode;PowerSaving;AllShareCast;MultiWindow;WiFiHotspot;SBeam;Nfc;AirView;AirGesture;SideKey;SmartStay;Sync;PersonalMode;TouchSensitivity;AirplaneMode;</CscFeature_Setting_DefNotificationPanelOrder>
+<CscFeature_Setting_DefQuickPanelOrder>Wifi;Location;SilentMode;AutoRotate;Bluetooth;MobileData;VoLte;NetworkBooster;UltraPowerSaving;DormantMode;PowerSaving;AllShareCast;MultiWindow;WiFiHotspot;SBeam;Nfc;AirView;AirGesture;SideKey;SmartStay;Sync;PersonalMode;TouchSensitivity;AirplaneMode;</CscFeature_Setting_DefQuickPanelOrder>
+<CscFeature_Setting_DisableMenuSoftwareUpdate>TRUE</CscFeature_Setting_DisableMenuSoftwareUpdate>
+<CscFeature_Setting_EnableDataRoamingMenuInDetail>TRUE</CscFeature_Setting_EnableDataRoamingMenuInDetail>
+<CscFeature_Setting_EnableHwVersionDisplay>TRUE</CscFeature_Setting_EnableHwVersionDisplay>
+<CscFeature_Setting_ManualSearchListWithDetailStatus>TRUE</CscFeature_Setting_ManualSearchListWithDetailStatus>
+
+<!-- Sip -->
+<CscFeature_Sip_AddCommaKeyAsDefault>TRUE</CscFeature_Sip_AddCommaKeyAsDefault>
+<CscFeature_Sip_AlternativeCharPopupInput>Stay</CscFeature_Sip_AlternativeCharPopupInput>
+<CscFeature_Sip_ApplyAutoCorrectionPatent>TRUE</CscFeature_Sip_ApplyAutoCorrectionPatent>
+<CscFeature_Sip_ConfigCMKey>OFF</CscFeature_Sip_ConfigCMKey>
+<CscFeature_Sip_EnableSymbolInSecondary>en_US;es;es_US</CscFeature_Sip_EnableSymbolInSecondary>
+<CscFeature_Sip_KeepDefInputMethodAs>QWERTY</CscFeature_Sip_KeepDefInputMethodAs>
+<CscFeature_Sip_SymbolPopupInput>SINGLE</CscFeature_Sip_SymbolPopupInput>
+<CscFeature_Sip_TutorialPopupType>ONE</CscFeature_Sip_TutorialPopupType>
+
+<!-- SmartManager -->
+<CscFeature_SmartManager_DisableAntiMalware>TRUE</CscFeature_SmartManager_DisableAntiMalware>
+
+<!-- Video -->
+<CscFeature_Video_AddWidgetLayout>TRUE</CscFeature_Video_AddWidgetLayout>
+<CscFeature_Video_EnablePopupPlayer>TRUE</CscFeature_Video_EnablePopupPlayer>
+<CscFeature_Video_FixedOrientationForOpGuideTour>TRUE</CscFeature_Video_FixedOrientationForOpGuideTour>
+<CscFeature_Video_ReplaceContextualTagDomainAs>TRUE</CscFeature_Video_ReplaceContextualTagDomainAs>
+<CscFeature_Video_SupportAllShare>TRUE</CscFeature_Video_SupportAllShare>
+<CscFeature_Video_SupportDlnaCertification>TRUE</CscFeature_Video_SupportDlnaCertification>
+<CscFeature_Video_SupportManualBrightness>TRUE</CscFeature_Video_SupportManualBrightness>
+<CscFeature_Video_SupportPlayDuringCall>TRUE</CscFeature_Video_SupportPlayDuringCall>
+
+<!-- VoiceCall -->
+<CscFeature_VoiceCall_ConfigOpStyleForBusyTone>SUBBUSY</CscFeature_VoiceCall_ConfigOpStyleForBusyTone>
+<CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>
+<CscFeature_VoiceCall_ConfigTonePolicyForEmergencyDial>SUPPORT</CscFeature_VoiceCall_ConfigTonePolicyForEmergencyDial>
+<CscFeature_VoiceCall_ConfigVolteCallWaitingSource>network</CscFeature_VoiceCall_ConfigVolteCallWaitingSource>
+<CscFeature_VoiceCall_ConfigVvm>TRUE</CscFeature_VoiceCall_ConfigVvm>
+<CscFeature_VoiceCall_EnableDetailCallEndCause>TRUE</CscFeature_VoiceCall_EnableDetailCallEndCause>
+<CscFeature_VoiceCall_RetryImsRegistering>TRUE</CscFeature_VoiceCall_RetryImsRegistering>
+<CscFeature_VoiceCall_SupportEmergencyCallUsingVolte>TRUE</CscFeature_VoiceCall_SupportEmergencyCallUsingVolte>
+<CscFeature_VoiceCall_SupportPopupDataUsageLimit>TRUE</CscFeature_VoiceCall_SupportPopupDataUsageLimit>
+<CscFeature_VoiceCall_SupportPopupForDataOff>TRUE</CscFeature_VoiceCall_SupportPopupForDataOff>
+<CscFeature_VoiceCall_SupportTTY>TRUE</CscFeature_VoiceCall_SupportTTY>
+<CscFeature_VoiceCall_SupportVolteHoldTone>NOT</CscFeature_VoiceCall_SupportVolteHoldTone>
+
+<!-- Weather -->
+<CscFeature_Weather_ConfigDefRefreshInterval>3</CscFeature_Weather_ConfigDefRefreshInterval>
+<CscFeature_Weather_ConfigDefTempUnit>0</CscFeature_Weather_ConfigDefTempUnit>
+
+<!-- Web -->
+<CscFeature_Web_Bool_EnableDRM>TRUE</CscFeature_Web_Bool_EnableDRM>
+<CscFeature_Web_DisableAllSearchEngineExceptGoogle>TRUE</CscFeature_Web_DisableAllSearchEngineExceptGoogle>
+<CscFeature_Web_DisableBookmarkSync>TRUE</CscFeature_Web_DisableBookmarkSync>
+<CscFeature_Web_SetHomepageURL>https://startpage.com</CscFeature_Web_SetHomepageURL>
+<CscFeature_Web_SetUAProfile>http://wap.samsungmobile.com/uaprof/%s.xml</CscFeature_Web_SetUAProfile>
+<CscFeature_Web_SupportDownloadSaveAs>TRUE</CscFeature_Web_SupportDownloadSaveAs>
+
+<!-- Wifi -->
+<CscFeature_Wifi_ConfigBestApSelection>MULTIPLE</CscFeature_Wifi_ConfigBestApSelection>
+<CscFeature_Wifi_ConfigMenuStatusForHotspot20>MENU_ON,DEFAULT_ON</CscFeature_Wifi_ConfigMenuStatusForHotspot20>
+<CscFeature_Wifi_EnableCheckDataTraffic>TRUE</CscFeature_Wifi_EnableCheckDataTraffic>
+<CscFeature_Wifi_EnableMenuAutoJoin>TRUE</CscFeature_Wifi_EnableMenuAutoJoin>
+<CscFeature_Wifi_EnableMenuConnectionType>TRUE</CscFeature_Wifi_EnableMenuConnectionType>
+<CscFeature_Wifi_EnableMenuPriority>TRUE</CscFeature_Wifi_EnableMenuPriority>
+<CscFeature_Wifi_EnableMenuResetConfiguration>TRUE</CscFeature_Wifi_EnableMenuResetConfiguration>
+<CscFeature_Wifi_SendSignalDuringPowerOff>TRUE</CscFeature_Wifi_SendSignalDuringPowerOff>
+<CscFeature_Wifi_ShowDetailedApInfo>TRUE</CscFeature_Wifi_ShowDetailedApInfo>
+<CscFeature_Wifi_ShutdownWifiDuringPowerOff>TRUE</CscFeature_Wifi_ShutdownWifiDuringPowerOff>
+<CscFeature_Wifi_SupportEapAka>TRUE</CscFeature_Wifi_SupportEapAka>
+<CscFeature_Wifi_SupportEapConnectionErrorForNak>TRUE</CscFeature_Wifi_SupportEapConnectionErrorForNak>
+<CscFeature_Wifi_SupportEapFastReauth>TRUE</CscFeature_Wifi_SupportEapFastReauth>
+<CscFeature_Wifi_SupportMenuMobileApMaxClient>TRUE</CscFeature_Wifi_SupportMenuMobileApMaxClient>
+<CscFeature_Wifi_SupportMobileAp5G>TRUE</CscFeature_Wifi_SupportMobileAp5G>
+<CscFeature_Wifi_SupportVendorPmksaControlDelete>TRUE</CscFeature_Wifi_SupportVendorPmksaControlDelete>
+
+</FeatureSet>
+</SamsungMobileFeature>

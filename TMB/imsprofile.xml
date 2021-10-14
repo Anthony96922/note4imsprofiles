@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  pcscf_pref
+      0 : PCO
+      1 : ISIM
+      2 : manual
+      3 : auto config
+      4 : if only RCS, from auto config. otherwise, PCO
+ -->
+<profiles>
+
+    <profile
+        name="T-Mobile VoLTE/RCS"
+        mccmnc="310260,310210,310800,00101:XAA,45001:XAA,45005:XAA,nosim:XAA"
+        sales_code="XAA"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        transport="udp"
+        mtu_size="1200"
+        priority="0"
+        support_ipsec="true"
+        timer="1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        emergency_support="true"
+        globalsettings="TMO-US">
+        <network type="lte" services="mmtel,mmtel-video,smsip,ss,presence,im,ft,euc"/>
+        <network type="wifi" services="mmtel,mmtel-video,smsip,ss,presence,im,ft,euc"/>
+    </profile>
+
+    <profile
+        name="T-Mobile Internet VoLTE/RCS"
+        mccmnc="310260,310210,310800,00101:XAA,45001:XAA,45005:XAA,nosim:XAA"
+        sales_code="XAA"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="internet"
+        transport="udp"
+        mtu_size="1200"
+        priority="0"
+        support_ipsec="true"
+        timer="1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        globalsettings="TMO-US">
+        <network type="lte" services="xdm"/>
+    </profile>
+
+    <profile
+        name="T-Mobile Wi-Fi VoLTE/RCS"
+        mccmnc="310260,310210,310800,00101:XAA,45001:XAA,45005:XAA,nosim:XAA"
+        sales_code="XAA"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="wifi"
+        transport="udp"
+        mtu_size="1200"
+        priority="0"
+        support_ipsec="true"
+        timer="1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        globalsettings="TMO-US">
+        <network type="wifi" services="xdm"/>
+    </profile>
+
+    <profile
+        name="T-Mobile E911"
+        mccmnc="310260,310210,310800,00101:XAA,45001:XAA,45005:XAA,nosim:XAA"
+        sales_code="XAA"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="emergency"
+        transport="udp"
+        mtu_size="1200"
+        priority="0"
+        support_ipsec="true"
+        timer="1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        emergency_support="true"
+        globalsettings="TMO-US">
+        <network type="lte" services="mmtel"/>
+        <network type="wifi" services="mmtel"/>
+    </profile>
+
+    <profile
+        enabled="off"
+        name="Testbed VoLTE/RCS"
+        mccmnc="testbed"
+        sales_code="test"
+        auth_algo="hmac-md5-96"
+        authname=""
+        enc_algo="none"
+        impi=""
+        impu=""
+        ipver="ipv4"
+        pcscf_pref="0"
+        pdn="ims"
+        port="5060"
+        priority="0"
+        regi_algo="AKAv1-MD5"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        support_roaming="false"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp"
+        support_ipsec="true"
+        globalsettings="default">
+        <network type="lte" services="smsip"/>
+    </profile>
+
+    <profile
+        enabled="off"
+        name="Testbed WiFi RCS"
+        mccmnc="testbed"
+        sales_code="test"
+        impi=""
+        impu=""
+        pdn="wifi"
+        priority="1"
+        globalsettings="default">
+        <network type="wifi" services="im,ft,is,vs,options,euc"/>
+    </profile>
+
+    <profile
+        enabled="off"
+        name="Testbed E911"
+        mccmnc="testbed"
+        sales_code="test"
+        auth_algo="hmac-md5-96"
+        authname=""
+        enc_algo="none"
+        ipver="ipv4"
+        pcscf_pref="0"
+        pdn="emergency"
+        port="5060"
+        priority="0"
+        regi_algo="AKAv1-MD5"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        support_roaming="false"
+        timer="1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000"
+        transport="udp"
+        emergency_support="true"
+        support_ipsec="true"
+        globalsettings="default">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+</profiles>
