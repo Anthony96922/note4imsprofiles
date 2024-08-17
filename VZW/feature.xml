@@ -99,7 +99,6 @@
 <CscFeature_RIL_DisableLteDetachOnPdpReset>TRUE</CscFeature_RIL_DisableLteDetachOnPdpReset>
 <CscFeature_RIL_Display4gPlusIconBandwidth>14</CscFeature_RIL_Display4gPlusIconBandwidth>
 <CscFeature_RIL_EnableCallBarringConnectToUssd>TRUE</CscFeature_RIL_EnableCallBarringConnectToUssd>
-<CscFeature_RIL_EnableDSAC>TRUE</CscFeature_RIL_EnableDSAC>
 <CscFeature_RIL_EnableDTM>TRUE</CscFeature_RIL_EnableDTM>
 <CscFeature_RIL_EnableImsSsErrorMsg>TRUE</CscFeature_RIL_EnableImsSsErrorMsg>
 <CscFeature_RIL_ForceConnectMMS>TRUE</CscFeature_RIL_ForceConnectMMS>
