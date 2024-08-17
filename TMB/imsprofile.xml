@@ -11,6 +11,7 @@
     <profile
         name="T-Mobile VoLTE/RCS"
         mccmnc="310260,310210,310800,00101:XAA,45001:XAA,45005:XAA,nosim:XAA"
+        allow_other_sim="1"
         sales_code="XAA"
         port="5060"
         pcscf_pref="0"
@@ -33,6 +34,7 @@
     <profile
         name="T-Mobile Internet VoLTE/RCS"
         mccmnc="310260,310210,310800,00101:XAA,45001:XAA,45005:XAA,nosim:XAA"
+        allow_other_sim="1"
         sales_code="XAA"
         port="5060"
         pcscf_pref="0"
@@ -53,6 +55,7 @@
     <profile
         name="T-Mobile Wi-Fi VoLTE/RCS"
         mccmnc="310260,310210,310800,00101:XAA,45001:XAA,45005:XAA,nosim:XAA"
+        allow_other_sim="1"
         sales_code="XAA"
         port="5060"
         pcscf_pref="0"
@@ -73,6 +76,7 @@
     <profile
         name="T-Mobile E911"
         mccmnc="310260,310210,310800,00101:XAA,45001:XAA,45005:XAA,nosim:XAA"
+        allow_other_sim="1"
         sales_code="XAA"
         port="5060"
         pcscf_pref="0"
